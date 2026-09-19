@@ -5,7 +5,7 @@ on:
       - opened
     branches:
       - main
-      - 'dev-*' # dev-new dev-this.....
+      - 'dev*' # dev-new dev-this.....
       - 'feat/**' #feat/new feat/xxx/xxxx
   workflow_dispatch:
   push:
